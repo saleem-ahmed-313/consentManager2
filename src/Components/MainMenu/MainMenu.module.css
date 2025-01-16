@@ -1,0 +1,211 @@
+:root {
+  --Greys-Surface-Grey: "FAFAFA";
+  --Primary-Colors-Tinted-Gray-2: "#E9EDF5";
+  --Primary-White: "#fff",
+    --Primary-Colors-Tinted-Gray-2:"#E9EDF5",
+}
+
+.mainContainer {
+  display: flex;
+  width: 1374px;
+  height: 822px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.mainConatiner_header {
+  display: flex;
+  height: 56px;
+  padding: 8px 24px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+
+}
+
+.createNotice_button {
+  display: flex;
+  height: 36px;
+  min-width: 64px;
+  padding: 10px 12px 10px 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  background: #4945C6;
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  border: none;
+}
+
+.mainConatiner_filter {
+  display: flex;
+  height: 56px;
+  padding: 0px 24px;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.inputField_container {
+  border-radius: 6px;
+  border: 1px solid var(--Primary-Colors-Tinted-Gray-2, #E9EDF5);
+  background: var(--Primary-White, #FFF);
+  display: flex;
+  width: 309px;
+  height: 32px;
+  padding: 11.5px 12px 11.5px 8px;
+  align-items: center;
+  gap: 10px;
+}
+
+.inputField_search {
+  color: var(--Greys-Placeholders, #838383);
+  font-family: Inter;
+  border: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.searchImage {
+  width: 20px;
+  height: 20px;
+}
+
+.filterOptions {
+  display: flex;
+  width: 130px;
+  height: 32px;
+  padding: 8px 8px 8px 12px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid #E9EDF5;
+  background: #FFF;
+  color: rgba(23, 28, 38, 0.80);
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.dataStoreOuterbody {
+  display: flex;
+  padding: 4px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+
+}
+
+.dataStoreOuterbody2 {
+  display: flex;
+  width: 1374px;
+  padding: 0px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.mainContainer_dataStoring {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  border-radius: 6px;
+  border: 1px solid #E9EDF5;
+}
+
+.dataStoring_heading {
+  display: flex;
+  width: 1326px;
+  align-items: center;
+  gap: 16px;
+  border-top: 1px solid var(--Greys-Surface-Grey, #FAFAFA);
+  border-bottom: 1px solid var(--Greys-Surface-Grey, #FAFAFA);
+  background: #F7F9FC;
+
+}
+
+.title_NoticeName {
+  display: flex;
+  width: 458px;
+  padding-left: 20px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  color: #687182;
+  /* font-family: Inter; */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.title_Status {
+  display: flex;
+  width: 348px;
+  height: 36px;
+  padding: 8.5px 8px;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+  color: #687182;
+  /* font-family: Inter; */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.title_Date_Modified {
+  display: flex;
+  height: 36px;
+  padding: 8.5px 8px;
+  align-items: center;
+  gap: 4px;
+  flex: 1 0 0;
+  color: #687182;
+  /* font-family: Inter; */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.title_blank {
+  display: flex;
+  width: 130px;
+  height: 36px;
+  padding: 8.5px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.mainConatiner_dataList {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 4px 4px 0px 0px;
+  border-bottom: 1px solid var(--Primary-Colors-Tinted-Gray-2, #E9EDF5);
+  background: var(--Primary-White, #FFF);
+  color: var(--Primary-Colors-Black, #171C26);
+  /* font-family: Inter; */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
