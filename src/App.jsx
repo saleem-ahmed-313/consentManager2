@@ -1,12 +1,20 @@
+<<<<<<< HEAD
 import { useState } from 'react'
 import './App.css'
 import MainMenu from './Components/MainMenu/MainMenu'
+=======
+
+import './App.css'
+import NoticeDetails from './Components/NoticeDetails/NoticeDetails'
+
+>>>>>>> 088ce6b262ef74c305dbc0b9a4d47646b2717584
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
+<<<<<<< HEAD
       {/* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -30,6 +38,9 @@ function App() {
 
       {/*mainMenu part */}
       <MainMenu/>
+=======
+      <NoticeDetails/>
+>>>>>>> 088ce6b262ef74c305dbc0b9a4d47646b2717584
     </>
   )
 }
