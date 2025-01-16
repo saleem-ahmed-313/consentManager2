@@ -1,4 +1,14 @@
 import React from "react";
+import {HypervergeLogo} from "./assets/01_HypervergeLogo";
+import {home} from './assets/02_home';
+import {applications} from './assets/03_applications';
+import {analytics} from './assets/04_analytics';
+import {workflows} from './assets/05_workflows';
+import {devhub} from './assets/06_devhub';
+import {account} from './assets/07_account';
+import {consentmanager} from './assets/08_consentmanager';
+
+
 
 import styles from "./MainSideMenu.module.css";
 
@@ -7,7 +17,7 @@ function MainSideMenu() {
     {
       id: 1,
       name: "Home",
-      icon: <CiHome className={styles.sideIcon} />,
+      icon: {home} ,
     },
     {
       id: 2,
@@ -44,7 +54,7 @@ function MainSideMenu() {
   return (
     <div className={styles.main}>
       <div className={styles.img}>
-        <img src="/hypervergeLogoshort.png" alt="logo" className={styles.image} />
+        <img src={HypervergeLogo} alt="logo" className={styles.image} />
       </div>
 
       <div className={styles.sideMenu}>
